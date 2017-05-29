@@ -1,0 +1,6 @@
+﻿Add-Migration
+Update-Database
+
+Необходимые пакеты
+1.EntityFrameWork
+2.Cors

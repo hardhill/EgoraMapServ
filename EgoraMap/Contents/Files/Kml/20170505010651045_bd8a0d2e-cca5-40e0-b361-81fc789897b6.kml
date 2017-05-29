@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>sleepleo.kml</name>
+	<StyleMap id="multiTrack">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#multiTrack_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#multiTrack_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="multiTrack_n">
+		<IconStyle>
+			<Icon>
+				<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>99ffac59</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<color>ff3010ff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="lineStyle">
+		<LineStyle>
+			<color>99ffac59</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<color>ff3010ff</color>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="multiTrack_h">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>99ffac59</color>
+			<width>8</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Спящий Лев</name>
+		<open>1</open>
+		<Placemark>
+			<name>Path</name>
+			<styleUrl>#lineStyle</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					107.347541,51.537794,0 107.347401,51.537821,0 107.347262,51.537847,0 107.347096,51.537874,0 107.346929,51.537901,0 107.346436,51.53802100000001,0 107.346243,51.538254,0 107.345567,51.538161,0 107.344912,51.538008,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>От автодороги М55</name>
+			<styleUrl>#multiTrack</styleUrl>
+			<gx:Track>
+				<when>2017-04-27T07:31:59Z</when>
+				<when>2017-04-27T07:31:59Z</when>
+				<when>2017-04-27T07:31:59Z</when>
+				<when>2017-04-27T07:31:59Z</when>
+				<when>2017-04-27T07:31:59Z</when>
+				<when>2017-04-27T07:31:59Z</when>
+				<when>2017-04-27T07:31:59Z</when>
+				<when>2017-04-27T07:31:59Z</when>
+				<when>2017-04-27T07:31:59Z</when>
+				<gx:coord>107.347541 51.537794 0</gx:coord>
+				<gx:coord>107.347401 51.537821 0</gx:coord>
+				<gx:coord>107.347262 51.537847 0</gx:coord>
+				<gx:coord>107.347096 51.537874 0</gx:coord>
+				<gx:coord>107.346929 51.537901 0</gx:coord>
+				<gx:coord>107.346436 51.53802100000001 0</gx:coord>
+				<gx:coord>107.346243 51.538254 0</gx:coord>
+				<gx:coord>107.345567 51.538161 0</gx:coord>
+				<gx:coord>107.344912 51.538008 0</gx:coord>
+			</gx:Track>
+		</Placemark>
+		<Placemark>
+			<name>гора &quot;Спящий Лев&quot;</name>
+			<LookAt>
+				<gx:TimeStamp><when>2017-04-27T07:31:59Z</when>
+</gx:TimeStamp>
+				<longitude>107.3486652446156</longitude>
+				<latitude>51.53838341981003</latitude>
+				<altitude>0</altitude>
+				<heading>0.002785482589328371</heading>
+				<tilt>12.03156614621969</tilt>
+				<range>1566.361208706595</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>107.3449942648388,51.5379681298942,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
